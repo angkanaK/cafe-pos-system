@@ -18,5 +18,19 @@
 2. Compile ไฟล์: `javac CafeSystem.java`
 3. รันโปรแกรม: `java CafeSystem`
 
+อัปเกรดล่าสุด (New in v2.0)
+🛠️ Admin Mode (Dynamic Inventory): ผู้ดูแลร้านสามารถเพิ่มเมนูใหม่ (ชื่อ, ราคา, ประเภท) เข้าสู่ระบบได้ทันทีผ่าน Console โดยไม่ต้องแก้ไข Source Code
+
+🔄 Flexible Ordering Loop: ระบบรับออเดอร์แบบต่อเนื่อง (Nested Loop) ช่วยให้สั่งอาหารได้หลายรายการในครั้งเดียวจนกว่าจะกดยืนยัน (OK)
+
+📂 ArrayList Integration: จัดการข้อมูลเมนูแบบ Dynamic ด้วย ArrayList รองรับการขยายตัวของรายการอาหารได้ไม่จำกัด
+
+💻 Technical Highlights
+Logic Flow: การจัดการ Buffer ของ Scanner (แก้ปัญหาช่องว่างหลัง nextInt) เพื่อการรับค่าที่แม่นยำ
+
+Clean Logic: การใช้ equalsIgnoreCase เพื่อให้ระบบไม่ Error แม้ผู้ใช้จะพิมพ์ตัวพิมพ์เล็กหรือใหญ่
+
+Object Mapping: เชื่อมโยงข้อมูลจาก Input ไปสร้างเป็น Object ใน Menu.java ได้อย่างสมบูรณ์
+
 ---
 *พัฒนาโดย: Booklyn (SU Computer Science)* 💻🎨
