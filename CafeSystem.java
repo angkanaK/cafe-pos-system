@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class CafeSystem {
     static ArrayList<Menu> allMenus = new ArrayList<>();
